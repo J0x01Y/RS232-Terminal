@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RS232 Terminal.exe" version="2.3.0.8" publicKeyToken="0e4475b62b0d33ec" language="neutral" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="maze32x32.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RS232 Terminal" version="1.2.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="RS232 Terminal.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+          若希望變更 Windows 使用者帳戶控制層級，
+          請用下列其中一項取代 requestedExecutionLevel 節點。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         若希望利用檔案及登錄模擬，提供回溯相容性，
+         則請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RS232 Terminal.exe" size="234776">
+      <assemblyIdentity name="RS232 Terminal" version="1.2.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8sGXPUymJw16NzV4FGQRR4cjjYXblLl8jX1jGW/6pdg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="maze.ico" size="894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rTvXt9j5WURFPfUjEkIaGA8TJSOrBtnGox0y1blUJx0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="maze32x32.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CoWtmWm3jjzo5a1gdQdDV3ZS46yawajmkXM0j6QPlqQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Add.png" size="437">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vYncWZm0yBEOAraj5AXhdlzfAsE2rEqEpwpgeRTxHR0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Close.png" size="605">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>89HI30mIBq/IS4I1B/GlPGNJjMk4CkdTw4Dm6AasJJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CP210xVcpDriver\SLAB_License_Agreement_VCP_Windows.txt" size="8370">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Iv7LmCJIKS+31DRyUhBidPA23BAOOINDkQv2cek6wAk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CP210xVcpDriver\slabvcp.cat" size="10970">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rke1HQyX7NgsLhlvkAX5FKQVBOi70en+xu4Aev50P9M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CP210xVcpDriver\slabvcp.inf" size="7509">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m03fj0pRPT0y16amki1EXP8X6kHZUuWR+Tt00XuU0Yo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CP210xVcpDriver\v6-7-6-driver-release-notes.txt" size="15553">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1JWW1MLkkxcB8naWGmYZRBoeWg/v2geKa1ynvo3kS2Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CP210xVcpDriver\x64\silabser.sys" size="97160">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0aSy+kYtvf7X4mPfeen5b3ee68ECbNTY4cG7MfSO62k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CP210xVcpDriver\x64\WdfCoInstaller01009.dll" size="1730280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iwuUjCW4kADcH02RHeBMcARxpoIsGih3xJndfw0KOU0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CP210xVcpDriver\x64\WdfCoInstaller01011.dll" size="1795952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9vs5qFePGWFlcNWj3HISyEqdojKzCgM3a78I9CZP7fI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CP210xVcpDriver\x86\silabser.sys" size="85384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LeG5NtN/gsupOlxuBLMBmaR/BHUeTyHRDwusPgw+17A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CP210xVcpDriver\x86\WdfCoInstaller01009.dll" size="1470704">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dg+TS4+7t9zwo3SMI8EspQOiNJOwHTbNCoW9FO8tEj4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CP210xVcpDriver\x86\WdfCoInstaller01011.dll" size="1629040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x2SYeaEMkzL8D5dEx+MiRkeu6efmLH4hz56YdGLj3QY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RS232 Terminal.exe.config" size="2021">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pBvcR/PuIMg+iNmLE2v+04yfOIdGKvQZSIvrGnB3PV8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=J0x01Y" issuerKeyHash="cf9cb05f92b5e7a4558ed05221cb03a761dee39f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>oz64+wQK1+GhKOM6olohYVn8LKw=</DigestValue></Reference></SignedInfo><SignatureValue>amSfp7KlQChqPmzuufDA5l8D6wKvWFqhPrsbBkLJqLAvlMQxJLvxWq/YicWdUB0n4VJaC+drqDiVhuMGlWwLKZvvS64Li5riKn/xFUHlIFH5L9+JXkdJrDUqGzwx5h/bP3KaP//CTzUX2Sm/sce4cW3HDdIXuxm5vtODWTOI3vODUCD9HyB+vn3Lt8rNl7aw0PWdeCunQcN3ikTIO9/pLZ/A8WShnBTt6XF6zguJWFcbNaJH1QBy00GuoN/Qqs2ERF+FV5dSlM3VP+myzewEn+e1i6962xyyxLs2NKOL4tJ5kkr34z+91g6apj9EtN4xH9BriNRqza8850SEdZLgdw==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>o2UvgxHVwV4w5l3piM8q6lRwyLk6qIS6JSkvZJjTfqU4DjyWI6n3K9cHRWyTIUEL0h9J4uBXr+e8oiQMQfB4x4B3+0XGWJm64uxAK1qRHtu8CUByJRl+Mxu2gl0YagXMS/rBl42RhTKplcBNwAFvQzXlAWl43GIHMip1t4RlTHDDX+H5Q5P08j0/PqwrbagXVU6kIW5xZ411c7vzNHwlHFUoM6/fkCquhOG7zCpomrGecgplfPXM6UADhjWWS+aiOwM+8XHoCdx1276KqUC6RVNRkSUb0Xbk3k21uW2QcWFrEUBHe5+ZxJ55NyhGkPVG2K2VI167P0iJLxGKOiR+kQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ac2cfc5961215aa23ae328a1e1d70a04fbb83ea3" Description="" Url=""><as:assemblyIdentity name="RS232 Terminal.exe" version="2.3.0.8" publicKeyToken="0e4475b62b0d33ec" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=J0x01Y</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1M5M/CUXymAyUmgHVKKmYD25Dhg=</DigestValue></Reference></SignedInfo><SignatureValue>QHObXI7nVcDGyshi/BHLi/7vVAAwH1DCGfSuR4hHbFtyyLOytSNI00F91FbzYOdqAwu40urw+47lCLlnpzt1QYt4pWV/QmiV2u3qs0jQGSlWrNez8wAyGBY8iWYAkEjKCFPbIQ3ApF60L8gM+eAmTqtEibTSOhGj9HS7NG4VBpxQ8zyv4xgl9vH71p5Bi3snCRMQypMzTODjxLvu3+cKWCnEynzCdvVuklhE+0zTEnhc562p0A7alD0WtAsEGtTMlnMypOBKlsPr0OBvqy6VZXERwNYOF/rFv7nVPkXgjjEBKtXPGrA+zoodk6NegyI4lbxeYiG0tl40QzHnps59KA==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>o2UvgxHVwV4w5l3piM8q6lRwyLk6qIS6JSkvZJjTfqU4DjyWI6n3K9cHRWyTIUEL0h9J4uBXr+e8oiQMQfB4x4B3+0XGWJm64uxAK1qRHtu8CUByJRl+Mxu2gl0YagXMS/rBl42RhTKplcBNwAFvQzXlAWl43GIHMip1t4RlTHDDX+H5Q5P08j0/PqwrbagXVU6kIW5xZ411c7vzNHwlHFUoM6/fkCquhOG7zCpomrGecgplfPXM6UADhjWWS+aiOwM+8XHoCdx1276KqUC6RVNRkSUb0Xbk3k21uW2QcWFrEUBHe5+ZxJ55NyhGkPVG2K2VI167P0iJLxGKOiR+kQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIC6jCCAdagAwIBAgIQbMbnAirlLppDjJ9qSQEjNzAJBgUrDgMCHQUAMBExDzANBgNVBAMTBkoweDAxWTAeFw0yNDA5MjcwNDE3NDVaFw0zOTEyMzEyMzU5NTlaMBExDzANBgNVBAMTBkoweDAxWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKNlL4MR1cFeMOZd6YjPKupUcMi5OqiEuiUpL2SY036lOA48liOp9yvXB0VskyFBC9IfSeLgV6/nvKIkDEHweMeAd/tFxliZuuLsQCtakR7bvAlAciUZfjMbtoJdGGoFzEv6wZeNkYUyqZXATcABb0M15QFpeNxiBzIqdbeEZUxww1/h+UOT9PI9Pz6sK22oF1VOpCFucWeNdXO78zR8JRxVKDOv35AqroThu8wqaJqxnnIKZXz1zOlAA4Y1lkvmojsDPvFx6Ancddu+iqlAukVTUZElG9F25N5NtbltkHFhaxFAR3ufmcSeeTcoRpD1RtitlSNeuz9IiS8RijokfpECAwEAAaNGMEQwQgYDVR0BBDswOYAQaj3mBCQTHvjXY2IZLKk0E6ETMBExDzANBgNVBAMTBkoweDAxWYIQbMbnAirlLppDjJ9qSQEjNzAJBgUrDgMCHQUAA4IBAQBzkvuulm9CyCkrmt+MqVJ2T9M+2AejwKLQqCIb/p8/aouk8DYWqVd1m+jbSAiRivLTTINkjvPig1eGRP331f2dGN4fhY9Adt5aTe8RMUXMyGlr8rc5IqQxl+HVo15H8EG/8dslayMCDoqNHUMPJmuxjzYk7bt6L8rXJ+m+H4Wu8fWNWI19sCTXFHtdA41qfXSIDHbM7xi/h4QVKlupOfV+LExsqB4xEFOOC7G+URPDGcPYQzJNYKjBQoryi7pWhvtXyS9Z3Ilw2Z6HNpzpYAQ19Zcxy87J3sygDRroksr7N7+fS1M3gA1AB9GVJ5pfwT2DFxVci3hD0ZWhnWSx0pWB</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
